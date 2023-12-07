@@ -1,0 +1,53 @@
+.WalletBody {
+    max-width: 400px;
+    padding: 20px;
+    margin: 6rem auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2a2a2a;
+  }
+  
+  .balance-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+  }
+  
+  .balance-value {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .load-money-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 0.3rem;
+  }
+
+.button-wallet {
+    padding: 10px 20px;
+    background-color: #0122BB;
+    color: #fff;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;   
+    transition: 0.2s ease-in-out; 
+  }
+
+.button-wallet:hover {
+    background-color: #01959a;
+    color: #fff;
+  }
+  

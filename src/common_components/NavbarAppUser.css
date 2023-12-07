@@ -1,0 +1,113 @@
+.navSearchAU{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.NavbarItemsAU{    
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 0;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);    
+    width: 100%;
+    height: 80px;
+    border-radius: 11px;
+    position: fixed;
+    top: 0;    
+    z-index: 9999;    
+}
+a{
+    text-decoration: none;
+}
+.logoAU{    
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}  
+.navbarLogoAU{    
+    position: relative;
+    top: 5px;    
+    left: 10px;
+    color: #0122BB;
+    font-size: 2rem;
+    cursor: pointer;            
+}
+.navbarLogoAU a{     
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    color: #0122BB;
+    padding-left: 10px;      
+}
+.navbar-searchAU {
+    flex-grow: 1;
+    text-align:justify;
+    margin-left: 26rem;
+    cursor: pointer;
+  }
+  .navLinksAU{    
+    color: #2a2a2a;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.navLinksAU i{
+    padding-right: 10px;
+}
+.navLinks:hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}  
+  .menuAU {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu_iconAU {
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  } 
+
+  .navbar-menu-icon:hover {
+    background-color: #01959a;
+  }
+  
+  .navbar-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    border-radius: 11px;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+  }
+  
+  .navbar-dropdown-item {
+    color: #2a2a2a;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .navbar-dropdown-item:hover {
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+
+

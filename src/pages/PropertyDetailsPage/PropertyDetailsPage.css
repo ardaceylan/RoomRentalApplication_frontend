@@ -1,0 +1,173 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.property-details {
+  margin-top: 20px;
+}
+
+.property-description {
+  margin-bottom: 20px;
+}
+
+.property-info {
+  margin-bottom: 20px;
+}
+
+.booking-form {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #fefefd;
+}
+
+table th {
+  background-color: #9f48c8;
+  color: #333333;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.booking-form .form-row {
+  margin-bottom: 16px;
+}
+
+.booking-form button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.confirmation-dialog {
+  background-color: #2557c1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.confirmation-dialog h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.confirmation-dialog p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.confirmation-dialog .confirmation-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.confirmation-dialog button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.confirmation-dialog button:last-child {
+  background-color: #f44336;
+}
+
+/* Additional Styling for Colorful Appearance */
+
+.container {
+  background-color: #f9f9f9;
+}
+
+.property-title {
+  color: #070807;
+}
+
+.property-description {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-info {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-table {
+  background-color: #eae9d4;
+}
+
+.reservation-button {
+  background-color: #dea7e9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.confirmation-dialog {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.confirmation-dialog h3 {
+  margin-top: 0;
+  color: #4caf50;
+}
+
+.confirmation-dialog p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.confirmation-dialog .confirmation-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.confirmation-dialog button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirmation-dialog button:last-child {
+  background-color: #f44336;
+}
